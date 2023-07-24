@@ -1,0 +1,31 @@
+.about-us h2 {
+    text-align: center;
+    font-size: 4rem;
+    margin-bottom: 3rem;
+}
+
+.about-us span {
+    color: #00abf0;
+}
+
+.about {
+    position: absolute;
+    top: 30%;
+    left: 5%;
+}
+
+.owner-img img {
+    border-radius: 50%;
+    border-top: .2rem solid #112e42;
+    border-bottom: .2rem solid #112e42;
+    border-left: .2rem solid #00abf0;
+    border-right: .2rem solid #00abf0;
+}
+
+.about-us h3 {
+    text-align: center;
+}
+
+.about-us p {
+    text-align: center;
+}

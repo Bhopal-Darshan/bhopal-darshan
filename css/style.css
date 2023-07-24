@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    /* overflow: hidden; */
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+html {
+    font-size: 85%;
+    overflow-x: hidden;
+}
+
+.logo {
+    cursor: pointer;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #ededed;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.nav-bar li {
+    display: inline;
+    padding: 7px;
+}
+
+
+.drop {
+    display: hidden;
+}
+
+.drop:hover {
+    display: show;
+}
+
+.nav-bar li a {
+    text-decoration: none;
+    color: #ededed;
+    letter-spacing: .1rem;
+}
+
+.nav-bar li a:hover {
+    color: #347eae;
+}
+
+.btn-box {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+
+.btn-box .btn {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: .8rem;
+    background-color: transparent;
+    color: #ededed;
+    overflow: hidden;
+    z-index: 1;
+    letter-spacing: .1rem;
+}
+
+.btn-box .btn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background-color: #347eae;
+    z-index: -1;
+    transition: .5s;
+}
+
+.btn-box button:hover {
+    color: #347eae;
+    transform: scale(1.1);
+}
+
+/* main area css */
+
+.img-area {
+    background: url(/img/madhya-pradesh.jpg);
+    opacity: .7;
+    height: 15rem;
+}
+
+.img-area h2 {
+    position: relative;
+    top: 55px;
+    color: black;
+    text-align: center;
+}
+
+.img-area p {
+    position: relative;
+    top: 4rem;
+    color: black;
+    text-align: center;
+}
+
+.special-feature p {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.special-feature h4 {
+    text-align: center;
+}
+
+.sf {
+    gap: 10vh;
+}
+
+.ads {
+    background-color: #7688e13d;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* footer css */
+
+.footer-area {
+    position: relative;
+    top: 60vh;
+    background-color: #162a38;
+}
+
+.brand-name {
+    text-align: center;
+}
+
+.f-header {
+    text-align: center;
+    cursor: pointer;
+}
+
+.f-header:hover {
+    transform: scale(1.2);
+}
+
+.content {
+    text-align: center;
+}
+
+.content i {
+    padding-right: 5px;
+}
+
+.content a {
+    text-decoration: none;
+    color: #ededed;
+}
+
+.content:hover {
+    transform: scale(1.1);
+}
+
+.social:hover {
+    transform: scale(1.4);
+}
+
+.social a {
+    color: #ededed;
+}
