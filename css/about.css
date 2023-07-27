@@ -1,4 +1,4 @@
-.about-us h2 {
+/* .about-us h2 {
     text-align: center;
     font-size: 4rem;
     margin-bottom: 3rem;
@@ -28,4 +28,37 @@
 
 .about-us p {
     text-align: center;
+} */
+
+.about-us {
+    border: 1px solid white;
+    height: 40vh;
 }
+
+.about-us h3 {
+    text-align: center;
+}
+
+.about-us p {
+    text-align: end;
+}
+
+.stay i {
+    position: relative;
+    left: 29vh;
+    margin-top: 15px;
+}
+
+.stay h3 {
+    text-align: center;
+}
+
+.team h1 {
+    text-align: center;
+}
+
+/* .team-member h3,
+h6,
+p {
+    text-align: center;
+} */
