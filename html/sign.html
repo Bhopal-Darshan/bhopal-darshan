@@ -62,102 +62,55 @@
 
             <!-- sign page -->
 
-            <form class="reg-form">
-                <div class="reg-container">
+            <section class="sign-page">
+                <div class="main-area">
                     <div
-                        class="row d-flex justify-content-end aline-item-center">
-                        <div class="col-3">
-                            <label for="inputFirstName" class="form-label">First
-                                Name</label>
-                            <input type="text" id="userFirstName"
-                                class="form-control" placeholder="First Name"
-                                aria-describedby="nameHelp" required>
-                        </div>
-                        <div class="mb-3 col-3">
-                            <label for="inputLastName" class="form-label">Last
-                                Name
-                            </label>
-                            <input type="text" class="form-control"
-                                id="userLastName" placeholder="Last Name"
-                                aria-describedby="nameHelp" required>
-                        </div>
-                    </div>
-                    <div
-                        class="row d-flex justify-content-end aline-item-center">
-                        <div class="mb-3 col-3">
-                            <label for="InputEmail" class="form-label">Email
-                                address</label>
-                            <input type="email" class="form-control"
-                                id="InputEmail" placeholder="Email"
-                                aria-describedby="emailHelp" required>
-                        </div>
-                        <div class="col-3">
-                            <label for="InputUser" class="form-label">Email
-                                address</label>
-                            <input type="text" class="form-control"
-                                id="InputUser" placeholder="User name"
-                                aria-describedby="emailHelp" required>
-                        </div>
-                    </div>
-                    <div
-                        class="row d-flex justify-content-end aline-item-center">
-                        <div class="mb-3 col-3">
-                            <label for="InputPassword" class="form-label">Create
-                                Password
-                            </label>
-                            <input type="password" class="form-control"
-                                id="InputNewPassword"
-                                placeholder="Create Password"
-                                aria-describedby="passwordHelp" required>
-                        </div>
-                        <div class="mb-3 col-3">
-                            <label for="InputPassword" class="form-label">Confirm
-                                Password
-                            </label>
-                            <input type="password" class="form-control"
-                                id="InputNewPassword"
-                                placeholder="Confirm Password"
-                                aria-describedby="passwordHelp" required>
-                        </div>
-                    </div>
-                    <div
-                        class="row d-flex justify-content-end aline-item-center">
-                        <div class="mb-3 col-3">
-                            <label for="inputGender" class="form-label">Gender
-                            </label>
-                            <select class="form-select" required>
-                                <option value="Choose">Choose....</option>
-                                <option value="Male">Male</option>
-                                <option value="Female">Female</option>
-                                <option value="Other">Other</option>
-                                <select>
-                                </div>
-                                <div class="mb-3 col-3">
-                                    <label for="inputGender" class="form-label">City
-                                    </label>
-                                    <select class="form-select" required>
-                                        <option value="Choose">Choose....</option>
-                                        <option value="bhopal">Bhopal</option>
-                                        <option value="sachi">Sachi</option>
-                                        <option value="Other">Other</option>
-                                        <select>
-                                        </div>
-                                    </div>
-                                    <div
-                                        class="row d-flex justify-content-center aline-item-center">
-                                        <div
-                                            class="col-6 d-flex justify-content-end">
-                                            <button type="submit"
-                                                class="btn btn-primary">Submit</button>
-                                        </div>
-                                    </div>
+                        class="d-flex justify-content-center align-items-center">
+                        <div class="new-acc">
+                            <h6>START FOR FREE</h6>
+                            <h1>Create new account</h1>
+                            <small>Already A Member? <a href="/html/login.html">Log
+                                    In</a></small>
 
+                            <!-- form -->
+
+                            <form class="row g-3 needs-validation" novalidate>
+                                <div class="col-md-2">
+                                    <input type="text" class="form-control"
+                                        id="validationCustom01" value
+                                        placeholder="First name"
+                                        required>
                                 </div>
-                            </div>
+                                <div class="col-md-2">
+                                    <input type="text" class="form-control"
+                                        id="validationCustom02" value
+                                        placeholder="Last name"
+                                        required>
+                                </div>
+                                <div class="col-12"></div>
+                                <div class="col-md-4">
+                                    <input type="email" class="form-control"
+                                        placeholder="Email"
+                                        id="email" required>
+                                </div>
+                                <div class="col-12"></div>
+                                <div class="col-md-4">
+                                    <input type="email" class="form-control"
+                                        placeholder="Email"
+                                        id="email" required>
+                                </div>
+                                <div class="col-12">
+                                </div>
+                                <div class="col-2">
+                                    <button class="btn btn-primary"
+                                        type="submit">Create account</button>
+                                </div>
+                            </form>
                         </div>
                     </div>
                 </div>
-            </form>
+            </section>
+
         </div>
         <script
             src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"

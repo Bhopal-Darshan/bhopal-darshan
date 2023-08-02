@@ -1,4 +1,14 @@
-.reg-form {
-    margin-top: 5rem;
-    /* border: 1px solid black; */
+.new-acc {
+    border-radius: 10px;
+    padding: 5vh 5vh;
+    text-align: start;
+    position: relative;
+    top: 120px;
+    right: 30px;
+    left: 30px;
+    box-shadow: 1px 0 15px rgba(255, 255, 255, 0.295);
+}
+
+.new-acc a {
+    text-decoration: none;
 }
